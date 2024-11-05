@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/736x/5d/18/79/5d187985b09b6e1151cca058eb686b27.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.level {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    background-color: antiquewhite;
+    background-color: rgba(255, 228, 196, 0.534);
+    border-color: pink;
+}
+
+button {
+    width: 150px;
+    height: 80px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #a52a2a;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #c24c4c;
+}
+
+button:active {
+    background-color: #ff0000;
+}
